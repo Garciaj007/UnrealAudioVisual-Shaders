@@ -1,0 +1,2 @@
+E:\Development\Unreal\UnrealAudioVisual-Shaders\AudioVisualShaders\Intermediate\Build\Win64\UE4Editor\Development\AudioVisualShaders\Definitions.AudioVisualShaders.h
+e:\development\unreal\unrealaudiovisual-shaders\audiovisualshaders\source\audiovisualshaders\AudioVisualShaders.h

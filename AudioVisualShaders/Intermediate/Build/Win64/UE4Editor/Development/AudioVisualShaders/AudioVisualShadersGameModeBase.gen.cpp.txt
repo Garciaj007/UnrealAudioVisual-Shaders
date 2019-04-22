@@ -1,0 +1,9 @@
+E:\Development\Unreal\UnrealAudioVisual-Shaders\AudioVisualShaders\Intermediate\Build\Win64\UE4Editor\Development\AudioVisualShaders\Definitions.AudioVisualShaders.h
+E:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+E:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+E:\Development\Unreal\UnrealAudioVisual-Shaders\AudioVisualShaders\Source\AudioVisualShaders/AudioVisualShadersGameModeBase.h
+E:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+E:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+E:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+E:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+e:\development\unreal\unrealaudiovisual-shaders\audiovisualshaders\intermediate\build\win64\ue4editor\inc\audiovisualshaders\AudioVisualShadersGameModeBase.generated.h

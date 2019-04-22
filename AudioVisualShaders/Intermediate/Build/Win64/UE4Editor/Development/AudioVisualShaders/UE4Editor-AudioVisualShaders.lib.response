@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-AudioVisualShaders.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\Development\Unreal\UnrealAudioVisual-Shaders\AudioVisualShaders\Intermediate\Build\Win64\AudioVisualShadersEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"E:\Development\Unreal\UnrealAudioVisual-Shaders\AudioVisualShaders\Intermediate\Build\Win64\UE4Editor\Development\AudioVisualShaders\AudioVisualShaders.cpp.obj"
+"E:\Development\Unreal\UnrealAudioVisual-Shaders\AudioVisualShaders\Intermediate\Build\Win64\UE4Editor\Development\AudioVisualShaders\AudioVisualShadersGameModeBase.cpp.obj"
+"E:\Development\Unreal\UnrealAudioVisual-Shaders\AudioVisualShaders\Intermediate\Build\Win64\UE4Editor\Development\AudioVisualShaders\AudioVisualShaders.init.gen.cpp.obj"
+"E:\Development\Unreal\UnrealAudioVisual-Shaders\AudioVisualShaders\Intermediate\Build\Win64\UE4Editor\Development\AudioVisualShaders\AudioVisualShadersGameModeBase.gen.cpp.obj"
+"E:\Development\Unreal\UnrealAudioVisual-Shaders\AudioVisualShaders\Intermediate\Build\Win64\UE4Editor\Development\AudioVisualShaders\Default.rc2.res"
+/OUT:"E:\Development\Unreal\UnrealAudioVisual-Shaders\AudioVisualShaders\Intermediate\Build\Win64\UE4Editor\Development\AudioVisualShaders\UE4Editor-AudioVisualShaders.lib"
+/INCLUDE:IMPLEMENT_MODULE_AudioVisualShaders

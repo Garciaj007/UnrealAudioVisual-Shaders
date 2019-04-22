@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\AudioVisualShaders.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{4083FDCE-9059-4174-ACF5-45D3BA2D15C3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\AudioVisualShaders.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\AudioVisualShadersEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{A9DD85F3-7CBD-4FB6-B5CC-0BF9931D7910}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\AudioVisualShaders">
+      <UniqueIdentifier>{0DBE8F73-638B-4A81-9DE4-B730B47D53B4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\AudioVisualShaders\AudioVisualShaders.Build.cs">
+      <Filter>Source\AudioVisualShaders</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\AudioVisualShaders\AudioVisualShaders.cpp">
+      <Filter>Source\AudioVisualShaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AudioVisualShaders\AudioVisualShaders.h">
+      <Filter>Source\AudioVisualShaders</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AudioVisualShaders\AudioVisualShadersGameModeBase.cpp">
+      <Filter>Source\AudioVisualShaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AudioVisualShaders\AudioVisualShadersGameModeBase.h">
+      <Filter>Source\AudioVisualShaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
