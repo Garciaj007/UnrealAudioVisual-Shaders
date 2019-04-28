@@ -1,4 +1,4 @@
-//Raymarching Shader Custom Expression
+/** Raymarching Shader Custom Expression */
 
 //ORIGINAL
 
@@ -22,27 +22,32 @@ float3 position = WorldPosition;
 
 for (int i = 0; i < Steps; i++)
 {
+	position = SDFRepetition(position, Spacing);
 
-	float distance = SDFBox(Repetition(position, Spacing), BoxDimensions);
+	float distance = SDFBox(position, BoxDimensions);
 
 	if (distance < MinimumDistance)
 		return float3(i / Steps, 0, 0);
 
-	position += ViewDirection * SDFRepetition(position, Spacing) * distance;
+	position += ViewDirection * distance;
 }
 
 return float3(1, 1, 1);
 
+/** ==================================================================================================================================== */
+/** ==================================================================================================================================== */
+/** ==================================================================================================================================== */
+
 //Signed Distance Geometry Functions
 
-float SDFSphere(float3 position, float radius) 
+float SDFSphere(float3 position, float radius)
 {
 	return length(position) - radius;
 }
 
 float SDFBox(float3 position, float3 dimensions)
 {
-	return length(max(abs(position) - dimensions), 0.0);
+	return length(max(abs(position) - dimensions, 0.0f));
 }
 
 float SDFRoundedBox(float3 position, float3 dimensions, float radius)
@@ -58,7 +63,7 @@ float SDFHexPrism(float3 position, float2 dimensions)
 
 float SDFTriangularPrism(float3 position, float2 dimensions) {
 	float3 q = abs(position);
-	return max(q.z - dimensions.y, max(q.x*0.866025 + p.y*0.5, -p.y) - h.x*0.5);
+	return max(q.z - dimensions.y, max(q.x*0.866025 + position.y*0.5, -position.y) - dimensions.x*0.5);
 }
 
 float SDFCappedCylinder(float3 position, float2 dimensions)
@@ -67,7 +72,7 @@ float SDFCappedCylinder(float3 position, float2 dimensions)
 	return min(max(d.x, d.y), 0.0) + length(max(d, 0.0));
 }
 
-//Distance Operations
+//Signed Distance Operations
 
 float SDFUnion(float d1, float d2)
 {
